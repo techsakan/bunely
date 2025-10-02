@@ -1,0 +1,24 @@
+{
+  "name": "bunely",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.4",
+  "description": "A lightweight Query Builder for bun:sqlite",
+  "scripts": {
+    "test": "bun test tests/",
+    "test:watch": "bun test --watch tests/",
+    "test:coverage": "bun test --coverage tests/",
+    "test:database": "bun test tests/database.test.ts",
+    "test:query": "bun test tests/query/",
+    "test:schema": "bun test tests/schema/",
+    "test:transactions": "bun test tests/transactions.test.ts",
+    "test:integration": "bun test tests/integration.test.ts",
+    "test:errors": "bun test tests/error-handling.test.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

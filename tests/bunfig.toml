@@ -1,0 +1,4 @@
+[test]
+# Test configuration for Bunely tests
+preload = ["./tests/setup.ts"]
+timeout = 30000
