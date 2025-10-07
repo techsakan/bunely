@@ -2,7 +2,7 @@
   "name": "bunely",
   "module": "index.ts",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A lightweight Query Builder for bun:sqlite",
   "scripts": {
     "test": "bun test tests/",
